@@ -436,7 +436,7 @@ class AddToHomeScreen {
       this._genModalStart() +
       this._genTitle() +
       this._genListStart() +
-      this._genListItem(`1`, i18n.__('Tap the %s button bellow.', `<img class="adhs-ios-safari-sharing-api-button" src="${this._genAssetUrl('ios-safari-sharing-api-button.svg')}" />`)) +
+      this._genListItem(`1`, i18n.__('Tap the %s button below.', `<img class="adhs-ios-safari-sharing-api-button" src="${this._genAssetUrl('ios-safari-sharing-api-button.svg')}" />`)) +
       this._genListItem(`2`, i18n.__('Select %s from the menu that pops up.', `<img class="adhs-ios-safari-add-to-home-screen-button" src="${this._genAssetUrl('ios-safari-add-to-home-screen-button.svg')}" />`) + ` <span class="adhs-emphasis">${i18n.__('You may need to scroll down to find this menu item.')}</span>`) +
       this._genListItem(`3`, i18n.__('Open the %s app.', `<img class="adhs-your-app-icon" src="${this.appIconUrl}"/>`)) +
       this._genListEnd() +
